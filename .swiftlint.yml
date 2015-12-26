@@ -1,0 +1,10 @@
+disabled_rules: # rule identifiers to exclude from running
+  - colon
+  - comma
+  - control_statement
+  - force_cast
+excluded: # paths to ignore during linting.
+  - Carthage
+  - Pods
+
+line_length: 128
