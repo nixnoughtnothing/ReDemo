@@ -145,11 +145,11 @@
 		B72A51EF1C22528400072645 /* ReDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B779C29D1C31A88E00B6C875 /* View */,
+				B779C29C1C31A86300B6C875 /* ViewControllers */,
 				B7464F811C225E63004CB2AA /* Model */,
 				B72A51FC1C22528400072645 /* Info.plist */,
 				B72A51F01C22528400072645 /* AppDelegate.swift */,
-				B72A51F21C22528400072645 /* ViewController.swift */,
-				B7628A8A1C22643300308AB0 /* TableViewCell.swift */,
 				B72A51F41C22528400072645 /* Main.storyboard */,
 				B72A51F71C22528400072645 /* Assets.xcassets */,
 				B72A51F91C22528400072645 /* LaunchScreen.storyboard */,
@@ -192,6 +192,22 @@
 				B7628A881C22613A00308AB0 /* Todo.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		B779C29C1C31A86300B6C875 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B72A51F21C22528400072645 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B779C29D1C31A88E00B6C875 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7628A8A1C22643300308AB0 /* TableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		D24E7DD46B404BE839D43118 /* Pods */ = {
