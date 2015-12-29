@@ -1,0 +1,10 @@
+language: objective-c
+ 
+before_install:
+  - pod install
+ 
+script:
+  - xcodebuild -workspace ReDemo.xcworkspace -scheme ReDemo -destination 'platform=iOS Simulator,name=iPhone 6' test
+ 
+after_success:
+
